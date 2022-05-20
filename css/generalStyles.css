@@ -1,7 +1,17 @@
+/*General styles*/
+:root{
+    --gray: #303233;
+    --light-black: #1A1A1A;
+    --dark-black: #010409;
+    --green: #5EBB1E;
+    --blue: #3477ff;
+}
+
 *{
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
 }
 
 html{
@@ -10,6 +20,7 @@ html{
 }
 
 body{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -17,3 +28,87 @@ body{
     max-width: 150rem;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gray);
+    padding: 0 1.5rem;
+    z-index: 5;
+}
+
+nav{
+    position: relative;
+}
+
+
+/*Header styles*/
+.headerIcons{
+    display: block;
+}
+
+#homeIcon{
+    width: 3rem;
+}
+
+#menuIcon{
+    width: 5rem;
+}
+
+#logo_header{
+    font-family: cursive, serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#dropDownMenu{
+    display: none;
+}
+
+.dropDownMenu_item{
+    margin-left: 3rem;
+}
+
+.dropDownMenu_item a{
+    color: #fff;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+#mobileMenu{
+    width: 25rem;
+    position: absolute;
+    top: 5.5rem;
+    right: -2rem;
+    display: none;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--light-black);
+}
+
+.mobileMenu_item{
+    width: 100%;
+    padding: 1rem;
+}
+
+.mobileMenu_item a{
+    display: inline-block;
+    width: 100%;
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+#mobileMenu_container{
+    text-align: center;
+}
+
+#mobileMenu_closeIcon{
+    width: 2.5rem;
+}

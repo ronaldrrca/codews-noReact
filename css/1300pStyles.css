@@ -1,0 +1,16 @@
+header{
+    padding-left: 5rem;
+    padding-right: 10rem;
+}
+
+.headerIcons{
+    display: none;
+}
+
+#dropDownMenu{
+    display: flex;
+}
+
+.dropDownMenu_item a:hover{
+    color: var(--blue);
+}
