@@ -14,7 +14,7 @@
 
     </main>
     <footer>
-
+        <?php include './html/footer.php' ?>
     </footer>
     <script src="./js/index.js"></script>
     <script src="./js/header.js"></script>

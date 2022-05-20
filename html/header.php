@@ -10,7 +10,6 @@
 </head>
     <img class="headerIcons" id="homeIcon" src="../assets/icons/home_icon.svg" alt="icono del inicio">
     <p id="logo_header">CODEWS</p>
-    
     <nav>
         <img class="headerIcons" id="menuIcon" src="../assets/icons/menu_icon.svg" alt="icono del menu">
         <ul id="dropDownMenu">

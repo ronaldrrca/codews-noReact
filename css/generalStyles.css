@@ -46,6 +46,17 @@ nav{
     position: relative;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    background-color: var(--dark-black);
+    margin-top: 10rem;
+    font-size: 1.4rem;
+}
+
 
 /*Header styles*/
 .headerIcons{
@@ -111,4 +122,51 @@ nav{
 
 #mobileMenu_closeIcon{
     width: 2.5rem;
+}
+
+
+/*Footer styles */
+#socialMediaIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35rem;
+    margin-bottom: 2rem;
+}
+
+.socialMediaIcon{
+    width: 4.4rem;
+}
+
+#instagramIcon{
+    width: 2.8rem;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer a{
+    display: inline-block;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--blue);
+}
+
+#copyRight span{
+    color: var(--blue);
+}
+
+#footer_contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+#designDevelopment{
+    margin-bottom: 1rem;
 }

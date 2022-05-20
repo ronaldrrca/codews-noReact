@@ -14,3 +14,11 @@ header{
 .dropDownMenu_item a:hover{
     color: var(--blue);
 }
+
+#socialMediaIcons{
+    width: 70rem;
+}
+
+.socialMediaIcon{
+    cursor: pointer;
+}
