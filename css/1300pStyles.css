@@ -22,3 +22,61 @@ header{
 .socialMediaIcon{
     cursor: pointer;
 }
+
+#h1HomeContainer{
+    margin-top: 6rem;
+}
+
+#homeMainImage768x446{
+    display: none;
+}
+
+#homeMainImage1300x867{
+    display: none;
+}
+
+#homeMainImage1500x870{
+    display: block;
+}
+
+#responsive_proposal_container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#responsiveImg_container{
+    width: 60%;
+}
+
+#proposal{
+    width: 40%;
+}
+
+.projectCard_img:hover{
+    filter: brightness(0.5);
+    transition-duration: 500ms;
+}
+
+.blogCard:hover{
+    filter: brightness(0.5);
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+.projectCard_img{
+    width: 38.3rem;
+    height: 65.4rem;
+}
+
+.blogCard{
+    width: 30rem;
+}
+
+.blogCard img{
+    width: 30rem;
+    height: 20rem;
+}
+
+
+

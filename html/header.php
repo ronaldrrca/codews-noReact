@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/generalStyles.css">
+    <link rel="stylesheet" href="../css/768pStyles.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="../css/1300pStyles.css" media="screen and (min-width: 1300px)">
 </head>
     <img class="headerIcons" id="homeIcon" src="../assets/icons/home_icon.svg" alt="icono del inicio">

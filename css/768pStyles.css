@@ -1,0 +1,57 @@
+#h1HomeContainer{
+    margin-left: 3rem;
+}
+
+#h1HomeContainer h1{
+    font-size: 2.6rem;
+    line-height: 3rem;
+}
+
+#h1HomeContainer h1 span{
+    font-size: 2rem;
+    line-height: 7rem;
+}
+
+#h1HomeContainer_largeGreenDiv{
+    height: 12rem;
+    top: 7rem;
+    left: 0;
+}
+
+#h1HomeContainer_smallGreenDiv{    
+    top: 2.4rem;
+    right: 5rem;
+}
+
+#modernDevelopment{
+    bottom: 4rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#homeMainImage768x446{
+    display: none;
+}
+
+#homeMainImage1300x867{
+    display: block;
+}
+
+#homeMainImage1500x870{
+    display: none;
+}
+
+#responsiveImg768{
+    display: none;
+}
+
+#responsiveImg900{
+    display: block;
+}
+
+
+.projectCard_img{
+    width: 32.7rem;
+    height: 55.9rem;
+}
+
