@@ -78,5 +78,9 @@ header{
     height: 20rem;
 }
 
+input[type='submit']:hover{
+    filter:brightness(1.2) ;
+}
+
 
 

@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <?php include './html/header.php' ?>
-    </header>
+    <header><?php include './components/header.php' ?></header>
     <main>
         <div id="homeBanner">
             <div id="h1HomeContainer">
@@ -38,9 +37,7 @@
         <h2 class="home_sectionTitle">Blog - entradas recientes</h2>
         <section id="homeBlogs"></section>
     </main>
-    <footer>
-        <?php include './html/footer.php' ?>
-    </footer>
+    <footer><?php include './components/footer.php' ?></footer>
     <script src="./js/index.js"></script>
     <script src="./js/header.js"></script>
 </body>
