@@ -64,9 +64,13 @@
 #contactInfo{
     margin-right: 3rem;
     margin-bottom: 0;
-    height: 40rem;
+    height: 49.6rem;
 }
 
 #contactInfo #noCost{
     margin-top: 5rem;
+}
+
+#contactWhatsApp{
+    margin-top: 8rem;
 }

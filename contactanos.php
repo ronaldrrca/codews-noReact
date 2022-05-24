@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CODEWS - Contáctanos</title>
     <link rel="shortcut icon" href="#" type="image/x-icon">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <header><?php include './components/header.php' ?></header>
@@ -29,23 +28,24 @@
                         </div>
                     </a>
             </div>
-            <form action="./controlers/mail.php" id="contactForm" method="post">
-                <label>Nombre*</label>
-                <input type='text' name='contactName' required autoFocus ></input>
+            <form id="contactForm">
+                <label>Nombre</label>
+                <input type='text' id='contactName' required autoFocus placeholder="Requerido" ></input>
                 <label>Email*</label>
-                <input type='email' name="email" required></input>
+                <input type='email' id="email" required placeholder="Requerido"></input>
                 <label>Teléfono</label>
-                <input type='text'name="phone" placeholder="Opcional"></input>
+                <input type='text'id="phone" placeholder="Opcional"></input>
                 <label>Mensaje*</label>
-                <textarea type='text' name="textMessage" required placeholder="Escriba aquí su mensaje"></textarea>
-                <p id="required">* Campo requerido</p>
-                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-                <input type='submit' value='Enviar mensaje'></input>
+                <textarea type='text' id="textMessage" required placeholder="Escriba aquí su mensaje"></textarea>
+                <!-- <p id="required">* Campo requerido</p> -->
+                <div id="noRobot"><input id="noRobotCheckbox" type="checkbox" value="false"><label id="noRobotLabel">No soy un robot</label></div>
+                <input id="contactSubmit" type='submit' value='Enviar mensaje'></input>
             </form>
         </div>
     </main>
     <footer><?php include './components/footer.php' ?></footer>
     <script src="./js/header.js"></script>
     <script src="./js/contactanos.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>

@@ -82,5 +82,13 @@ input[type='submit']:hover{
     filter:brightness(1.2) ;
 }
 
+#noRobotCheckbox{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#noRobotCheckbox:hover{
+    transform: scale(1.2);
+}
 
 

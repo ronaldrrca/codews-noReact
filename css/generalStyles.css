@@ -111,6 +111,7 @@ footer{
 .mobileMenu_item{
     width: 100%;
     padding: 1rem;
+    list-style: none;
 }
 
 .mobileMenu_item a{
@@ -123,6 +124,7 @@ footer{
 
 #mobileMenu_container{
     text-align: center;
+    list-style: none;
 }
 
 #mobileMenu_closeIcon{
@@ -440,7 +442,6 @@ footer a{
     justify-content: center;
     align-items: center;
     width: 35rem;
-    /* min-height: 10rem; */
     margin-bottom: 2rem;
     border-radius: 0.5rem;
     padding: 2rem 0;
@@ -525,17 +526,56 @@ input[type='email']{
 
 textarea{
     resize: none;
+    height: 6.8rem;
 }
 
-#required{
+/* #required{
     width: 100%;
+    margin-bottom: 2rem;
     text-align: left;
     font-size: 1.2rem;
+} */
+
+#noRobot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    margin-top: 2rem;
+    background-color: #ccc;
+    border: 1px solid #ff0000;
+    opacity: 0.8;
+}
+
+#noRobotCheckbox{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: 1rem;
+}
+
+#noRobotLabel{
+    width: 12rem;
+    text-align: center;
+}
+
+#noRobotCheckbox + label{
+    color: red;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#noRobotCheckbox:checked + label{
+    color: #31A64D;
+    font-weight: bold;
 }
 
 input[type='submit']{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding: 1rem 0;
+    height: 6rem;
     margin: 2rem 0;
     background-color: var(--green);
     cursor: pointer;
