@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="../css/768pStyles.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="../css/1300pStyles.css" media="screen and (min-width: 1300px)">
 </head>
-    <a href="index.php"><img class="headerIcons" id="homeIcon" src="../assets/icons/home_icon.svg" alt="icono del inicio"></a>
+    <a class="headerIcons" href="index.php"><img id="homeIcon" src="../assets/icons/home_icon.svg" alt="icono del inicio"></a>
     <p id="logo_header">CODEWS</p>
     <nav>
         <img class="headerIcons" id="menuIcon" src="../assets/icons/menu_icon.svg" alt="icono del menu">
         <ul id="dropDownMenu">
-            <li class="dropDownMenu_item"><a href="index.php">INICIO</a></li>
-            <li class="dropDownMenu_item"><a href="#">PROYECTOS</a></li>
-            <li class="dropDownMenu_item"><a href="#">BLOG</a></li>
-            <li class="dropDownMenu_item"><a href="contactanos.php">CONTÁCTANOS</a></li>
+            <li id="item_index" class="dropDownMenu_item"><a href="index.php">INICIO</a></li>
+            <li id="item_proyectos" class="dropDownMenu_item"><a href="#">PROYECTOS</a></li>
+            <li id="item_blog" class="dropDownMenu_item"><a href="#">BLOG</a></li>
+            <li id="item_contactanos" class="dropDownMenu_item"><a href="contactanos.php">CONTÁCTANOS</a></li>
         </ul>
         <ul id="mobileMenu">
             <li id="mobileMenu_container"><img id="mobileMenu_closeIcon" src="../assets/icons/close_icon.svg" alt=""></li>
