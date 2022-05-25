@@ -95,6 +95,7 @@ blogCardArray.forEach(element => {
     blogCard.className = "blogCard"
     const link = document.createElement("a")
     link.setAttribute("href", "#")
+    const figure = document.createElement("figure")
     const image = document.createElement("img")
     image.setAttribute("src", element.src)
     image.setAttribute("alt", element.alt)
@@ -111,7 +112,8 @@ blogCardArray.forEach(element => {
     const blogCardText = document.createElement("p")
     blogCardText.className = "blogCardText"
     blogCardText.innerHTML = element.text
-    blogCard.appendChild(image)
+    figure.appendChild(image)
+    blogCard.appendChild(figure)
     blogCard.appendChild(blogCardAuthor)
     blogCard.appendChild(blogCardTitle)
     blogCard.appendChild(blogCardText)

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/1300pStyles.css" media="screen and (min-width: 1300px)">
 </head>
     <a class="headerIcons" href="index.php"><img id="homeIcon" src="../assets/icons/home_icon.svg" alt="icono del inicio"></a>
-    <p id="logo_header">CODEWS</p>
+    <img id="logo_header" src="../assets/icons/logoV2.svg" alt="">
     <nav>
         <img class="headerIcons" id="menuIcon" src="../assets/icons/menu_icon.svg" alt="icono del menu">
         <ul id="dropDownMenu">
