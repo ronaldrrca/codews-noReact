@@ -16,14 +16,14 @@
         <ul id="dropDownMenu">
             <li id="item_index" class="dropDownMenu_item"><a href="index.php">INICIO</a></li>
             <li id="item_proyectos" class="dropDownMenu_item"><a href="#">PROYECTOS</a></li>
-            <li id="item_blog" class="dropDownMenu_item"><a href="#">BLOG</a></li>
+            <li id="item_blog" class="dropDownMenu_item"><a href="../blog.php">BLOG</a></li>
             <li id="item_contactanos" class="dropDownMenu_item"><a href="contactanos.php">CONTÁCTANOS</a></li>
         </ul>
         <ul id="mobileMenu">
             <li id="mobileMenu_container"><img id="mobileMenu_closeIcon" src="../assets/icons/close_icon.svg" alt=""></li>
             <li class="mobileMenu_item"><a id="mobileMenu_inicio" href="index.php">INICIO</a></li>
             <li class="mobileMenu_item"><a id="mobileMenu_proyectos" href="#">PROYECTOS</a></li>
-            <li class="mobileMenu_item"><a id="mobileMenu_blog" href="#">BLOG</a></li>
+            <li class="mobileMenu_item"><a id="mobileMenu_blog" href="../blog.php">BLOG</a></li>
             <li class="mobileMenu_item"><a id="mobileMenu_contactanos" href="contactanos.php">CONTÁCTANOS</a></li>
         </ul>
     </nav>

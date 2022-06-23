@@ -74,3 +74,25 @@
 #contactWhatsApp{
     margin-top: 8rem;
 }
+
+#blog_figure{
+   height: 35rem;
+}
+
+#blog_figure_img2{
+    display: block;
+}
+
+#blog_figure_img1, #blog_figure_img3{
+    display: none;
+}
+
+.blogCard_blog{
+    width: 38rem;
+}
+
+#blog_figure h1{
+    top: 10rem;
+    left: 8rem;
+    font-size: 6rem;
+}

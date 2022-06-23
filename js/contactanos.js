@@ -2,7 +2,7 @@ const noRobotCheckbox = document.getElementById("noRobotCheckbox");
 const noRobot = document.getElementById("noRobot")
 const contactForm = document.getElementById("contactForm")
 const contactSubmit = document.getElementById("contactSubmit")
-const url = "../controlers/mail.php"
+const urlControler = "../controlers/mail.php"
 
 contactForm.addEventListener("submit", (e)=> {
     e.preventDefault()
@@ -18,7 +18,7 @@ function sendData() {
     //Confirmamos que los campos requeridos están enviando datos. Medida de respaldo al atributo ya establecido
     if (contactName && email && textMessage) {
         alert("Mensaje enviado con éxito, de ser necesario pronto recibirá una respuesta.")
-        window.location.assign(url + "?contactName=" + contactName + "&email=" + email +"&phone=" + phone + "&textMessage=" + textMessage);
+        window.location.assign(urlControler + "?contactName=" + contactName + "&email=" + email +"&phone=" + phone + "&textMessage=" + textMessage);
         }
 }
 

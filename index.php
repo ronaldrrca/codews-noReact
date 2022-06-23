@@ -25,12 +25,12 @@
         </div>
         <p id="noCompite">"Sí su negocio no tiene presencia en la web, no compite"</p>
         <div id="responsive_proposal_container">
+            <a id="proposal" href="./contactanos.php"><p>Solicita una propuesta de desarrollo para tu negocio, sin costo y sin compromisos.</p></a>
             <figure id="responsiveImgContainer">
                 <img id="responsiveImg768" src="./assets/images/responsive-768p.webp" alt="imagen de diferentes dispositivos mostrando un sitio adaptable">
                 <img id="responsiveImg900" src="./assets/images/responsive-900p.webp" alt="imagen de diferentes dispositivos mostrando un sitio adaptable">
                 <div id="responsive_design"><p>Diseño adaptativo</p></div>
             </figure>
-            <p id="proposal">Solicita una propuesta de desarrollo para tu negocio, sin costo y sin compromisos.</p>
         </div>
         <h2 class="home_sectionTitle">Proyectos recientes</h2>
         <section id="homeRecentProjects"></section>
@@ -40,5 +40,7 @@
     <footer><?php include './components/footer.php' ?></footer>
     <script src="./js/index.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/blogs.js"></script>
+    <script src="./js/homeBlogs.js"></script>
 </body>
 </html>
