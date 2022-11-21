@@ -20,13 +20,13 @@ mobileMenu_inicio.addEventListener("click", ()=> {
     mobileMenu.style.display = "none"
 })
 
-mobileMenu_proyectos.addEventListener("click", ()=> {
-    mobileMenu.style.display = "none"
-})
+// mobileMenu_proyectos.addEventListener("click", ()=> {
+//     mobileMenu.style.display = "none"
+// })
 
-mobileMenu_blog.addEventListener("click", ()=> {
-    mobileMenu.style.display = "none"
-})
+// mobileMenu_blog.addEventListener("click", ()=> {
+//     mobileMenu.style.display = "none"
+// })
 
 mobileMenu_contactanos.addEventListener("click", ()=> {
     mobileMenu.style.display = "none"

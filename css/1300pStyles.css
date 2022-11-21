@@ -19,25 +19,7 @@ header{
     width: 70rem;
 }
 
-.socialMediaIcon{
-    cursor: pointer;
-}
 
-#h1HomeContainer{
-    margin-top: 6rem;
-}
-
-#homeMainImage768x446{
-    display: none;
-}
-
-#homeMainImage1300x867{
-    display: none;
-}
-
-#homeMainImage1500x870{
-    display: block;
-}
 
 #responsive_proposal_container{
     flex-direction: row;
@@ -49,74 +31,14 @@ header{
     width: 60%;
 }
 
-#proposal{
-    width: 40%;
-}
-
 .projectCard_img:hover{
     filter: brightness(0.5);
     transition-duration: 500ms;
 }
 
-.blogCard_home:hover{
-    filter: brightness(0.5);
-    transition-duration: 500ms;
-    cursor: pointer;
-}
-
-.blogCard_blog:hover{
-    filter: brightness(0.5);
-    transition-duration: 500ms;
-    cursor: pointer;
-}
-
-.blogCard_home img:hover{
-    transform: scale(1.2);
-}
-
-.blogCard_blog img:hover{
-    transform: scale(1.2);
-}
-
 .projectCard_img{
     width: 38.3rem;
     height: 65.4rem;
-}
-
-.blogCard_home{
-    width: 30rem;
-}
-
-.blogCard_blog{
-    width: 30rem;
-    padding: 1rem;
-}
-
-.blogCard_home img{
-    width: 30rem;
-    height: 20rem;
-}
-
-.blogCard_blog figure{
-    width: 40%;
-    border-bottom: 0;
-}
-
-.blogCard_blog img{
-    width: 100%;
-}
-
-.blogCardAuthor{
-    margin-top: 5rem;
-}
-
-.blogCardTitle{
-    margin-top: 0;
-}
-
-.blogCard_info{
-    width: 60%;
-    padding-left: 1rem;
 }
 
 input[type='submit']:hover{
@@ -132,26 +54,31 @@ input[type='submit']:hover{
     transform: scale(1.2);
 }
 
-#blog_figure{
-    height: 40rem;
- }
-
-#blog_figure_img3{
-    display: block;
+#hero_index{
+    height: 55rem;
 }
 
-#blog_figure_img1, #blog_figure_img2{
+#precios_desde_tablet{
+    right: 20%;
+}
+
+#precios_desde_tablet button{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#precios_desde_tablet button:hover{
+    background-color: #009cf7;
+}
+
+#desarrolloWeb_hero_info{
+    padding-left: 5rem;
+}
+
+#hero_text{
+    padding-left: 10rem;
+}
+
+#precios_desde_movil{
     display: none;
-}
-
-.blogCard_blog{
-    flex-direction: row;
-    width: 60rem;
-    max-width: none;
-}
-
-#blog_figure h1{
-    top: 14rem;
-    left: 20rem;
-    font-size: 8rem;
 }

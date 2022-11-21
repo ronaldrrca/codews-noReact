@@ -7,14 +7,14 @@
     <title>Document</title>
 </head>
     <div id="footer_contacto">
-        <div id="socialMediaIcons">
+        <!-- <div id="socialMediaIcons">
             <a href="../contactanos.php"><img class="socialMediaIcon" src="../assets/icons/facebook_icon.svg" alt="icono facebook"></a>
             <a href="../contactanos.php"><img class="socialMediaIcon" src="../assets/icons/linkedin_icon.svg" alt="iconno linkedin"></a>
             <a href="../contactanos.php"><img class="socialMediaIcon" src="../assets/icons/twitter_icon.svg" alt="icono twitter"></a>
             <a href="../contactanos.php"><img id="instagramIcon" src="/assets/icons/instagram_icon.svg" alt="icono instagram"></a>
             <a href="../contactanos.php"><img class="socialMediaIcon" src="../assets/icons/youtube_icon.svg" alt="icono youtube"></a>    
             <a href="../contactanos.php"><img class="socialMediaIcon" src="../assets/icons/pinterest_icon.svg" alt="icono pinterest"></a>
-        </div>
+        </div> -->
         <a href="../contactanos.php">Contáctanos</a>
     </div>
     <p id="designDevelopment">Diseño y desarrollo por Ronald Rodríguez Campillo</p>

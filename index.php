@@ -10,37 +10,49 @@
 <body>
     <header><?php include './components/header.php' ?></header>
     <main>
-        <div id="homeBanner">
-            <div id="h1HomeContainer">
-                <div id="h1HomeContainer_largeGreenDiv"></div>
-                <div id="h1HomeContainer_smallGreenDiv"></div>
-                <h1><span>Desarrollo web</span><br>Páginas <br>Sitios <br>Landing pages <br>Aplicaciones web</h1>
+        <section id="hero_contenedor">
+            <picture id="hero_imagen" class="">
+                <source media="(max-width:600px)" srcset="./assets/images/mainImage-600x348.webp">
+                <source media="(max-width:768px)" srcset="./assets/images/mainImage-768x446.webp">
+                <img src="./assets/images/mainImage-1300x754.webp" alt="personas trabajando en desarrollo web">
+            </picture>
+                
+            <div id="hero_info">
+                <div id="hero_cuadrado_adorno1"></div>
+                <div id="hero_cuadrado_adorno2"></div>
+                <div id="hero_cuadrado_adorno3"></div>
+                <div id="hero_cuadrado_adorno4"></div>
+                <div id="desarrolloWeb_hero_info">
+                    <span>CREAMOS Y DESARROLLAMOS<br><span class="hero_index_colorAzul">PÁGINAS PROFESIONALES</span> </span>
+                    <div id="hero_text">
+                        <span id="desarrollo_web">Desarrollo<br>Web</span>
+                        <h1>
+                            * Landing pages <br>
+                            * Páginas web<br>
+                            * sitios web
+                        </h1>
+                    </div>
+                    <div id="precios_desde_tablet">
+                        <span>Desde $ 120.000</span><br>
+                        <button>Solicite información</button>
+                    </div>
+                </div>
             </div>
-            <figure id="homeBannerImages">
-                <img class="homeBanner_image" id="homeMainImage768x446" src="./assets/images/mainImage-768x446.webp" alt="desarrolladores trabajando en oficina">
-                <img class="homeBanner_image" id="homeMainImage1300x867" src="./assets/images/mainImage-1300x867.webp" alt="desarrolladores trabajando en oficina">
-                <img class="homeBanner_image" id="homeMainImage1500x870" src="./assets/images/mainImage-1500x870.webp" alt="desarrolladores trabajando en oficina">
-            </figure>
-            <p id="modernDevelopment">Desarrollo web moderno y adaptable a todos los dispositivos</p>
+        </section>
+        <div id="precios_desde_movil">
+            <span>Desde $ 120.000</span><br>
+            <button>Solicite información</button>
         </div>
-        <p id="noCompite">"Sí su negocio no tiene presencia en la web, no compite"</p>
-        <div id="responsive_proposal_container">
-            <a id="proposal" href="./contactanos.php"><p>Solicita una propuesta de desarrollo para tu negocio, sin costo y sin compromisos.</p></a>
-            <figure id="responsiveImgContainer">
-                <img id="responsiveImg768" src="./assets/images/responsive-768p.webp" alt="imagen de diferentes dispositivos mostrando un sitio adaptable">
-                <img id="responsiveImg900" src="./assets/images/responsive-900p.webp" alt="imagen de diferentes dispositivos mostrando un sitio adaptable">
-                <div id="responsive_design"><p>Diseño adaptativo</p></div>
-            </figure>
-        </div>
-        <h2 class="home_sectionTitle">Proyectos recientes</h2>
-        <section id="homeRecentProjects"></section>
-        <h2 class="home_sectionTitle">Blog - entradas recientes</h2>
-        <section id="homeBlogs"></section>
+        <section id="que_ofrecemos">
+            <h2>LO QUE HACEMOS</h2>
+            <p>Desarollo de landing pages, páginas, sitios y aplicaciones web. Realizamos desarrollos responsivos (adaptativos a dispositivos de diferentes tamaños, desktops, portátiles, tablets y móviles). 
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum explicabo delectus ullam. Error, voluptas vel possimus molestias voluptate amet nesciunt ducimus corporis exercitationem dolorum, libero molestiae aliquid quaerat eveniet tenetur!
+            </p>
+        </section>
+        
     </main>
     <footer><?php include './components/footer.php' ?></footer>
     <script src="./js/index.js"></script>
     <script src="./js/header.js"></script>
-    <script src="./js/blogs.js"></script>
-    <script src="./js/homeBlogs.js"></script>
 </body>
 </html>
