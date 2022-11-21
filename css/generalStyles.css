@@ -276,6 +276,7 @@ footer{
 
 #precios_desde_movil span{
     margin-top: 3rem;
+    margin-bottom: 1rem;
     display: inline-flex;
     justify-content: center;
     font-size: 3rem;
@@ -484,11 +485,30 @@ input[type='submit']{
 }
 
 #que_ofrecemos{
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     margin-top: 10rem;
     margin-bottom: 10rem;
-    
+}
+
+#texto_que_ofrecemos{
+    width: 100%;
+    padding: 0 2rem;
+}
+
+#que_ofrecemos_imagen{
+    width: 100%;
+    overflow: hidden;
+}
+
+#que_ofrecemos_imagen img{
+    width: 100%;
+}
+
+#que_ofrecemos p{
+    margin-bottom: 1rem;
 }
 
 #que_ofrecemos h2{

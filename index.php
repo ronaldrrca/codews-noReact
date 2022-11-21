@@ -44,10 +44,19 @@
             <button>Solicite información</button>
         </div>
         <section id="que_ofrecemos">
-            <h2>LO QUE HACEMOS</h2>
-            <p>Desarollo de landing pages, páginas, sitios y aplicaciones web. Realizamos desarrollos responsivos (adaptativos a dispositivos de diferentes tamaños, desktops, portátiles, tablets y móviles). 
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum explicabo delectus ullam. Error, voluptas vel possimus molestias voluptate amet nesciunt ducimus corporis exercitationem dolorum, libero molestiae aliquid quaerat eveniet tenetur!
-            </p>
+            <div id="texto_que_ofrecemos">
+                <h2>LO QUE HACEMOS</h2>
+                <p>Apoyamos a los emprendedores y mipymes en el proceso de la implementación de su presencia en la web, mediante el desarollo de landing pages, 
+                    páginas, sitios y aplicaciones web. Realizamos desarrollos responsivos (adaptativos a dispositivos de diferentes tamaños, desktops, portátiles, 
+                    tablets y móviles), utilizando las tecnologías modernas y las técnicas apropiadas para SEO. 
+                </p>
+                <p>Asesoramos en los procesos de adquisición de dominio y hosting, edición, mantenimiento y ajustes de páginas existentes</p>
+            </div>
+            <picture id="que_ofrecemos_imagen" class="">
+                <source media="(max-width:600px)" srcset="./assets/images/que-hacemos-movil.webp">
+                <source media="(max-width:768px)" srcset="./assets/images/que-hacemos-tablet.webp">
+                <img src="./assets/images/que-hacemos-grande.webp" alt="desarrollador trabajando">
+            </picture>
         </section>
         
     </main>

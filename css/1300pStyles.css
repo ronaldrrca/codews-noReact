@@ -82,3 +82,22 @@ input[type='submit']:hover{
 #precios_desde_movil{
     display: none;
 }
+
+#que_ofrecemos{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#que_ofrecemos_imagen{
+    width: 55%;
+    overflow: hidden;
+}
+
+#texto_que_ofrecemos{
+    width: 45%;
+    
+}
+
+
