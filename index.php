@@ -27,21 +27,21 @@
                     <div id="hero_text">
                         <span id="desarrollo_web">Desarrollo<br>Web</span>
                         <h1>
-                            * Landing pages <br>
-                            * Páginas web<br>
-                            * sitios web
+                            - Landing pages <br>
+                            - Páginas web<br>
+                            - sitios web
                         </h1>
                     </div>
                     <div id="precios_desde_tablet">
                         <span>Desde $ 120.000</span><br>
-                        <button>Solicite información</button>
+                        <a href="https://wa.me/573003581311?text=¡Estoy+interesado+en+un+desarrollo+web!"target="_blank"><button>Solicite información</button></a>
                     </div>
                 </div>
             </div>
         </section>
         <div id="precios_desde_movil">
             <span>Desde $ 120.000</span><br>
-            <button>Solicite información</button>
+            <a href="https://wa.me/573003581311?text=¡Estoy+interesado+en+un+desarrollo+web!" target="_blank"><button>Solicite información</button></a>
         </div>
         <section id="que_ofrecemos">
             <div id="texto_que_ofrecemos">
