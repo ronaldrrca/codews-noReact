@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="desarrollo web, landing pages, paginas web, sitios web, 
-                                        aplicaciones web, diseño responsivo, web development, 
-                                        web pages, web sites, web apps, responsive design.">
-    <meta name="robots" content="index.follow">
-    <title>Document</title>
     <link rel="stylesheet" href="../css/generalStyles.css">
     <link rel="stylesheet" href="../css/600pStyles.css" media="screen and (min-width: 601px)">
     <link rel="stylesheet" href="../css/768pStyles.css" media="screen and (min-width: 768px)">

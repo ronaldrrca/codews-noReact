@@ -46,6 +46,6 @@
     <footer><?php include './components/footer.php' ?></footer>
     <script src="./js/header.js"></script>
     <script src="./js/contactanos.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 </body>
 </html>

@@ -19,8 +19,6 @@ header{
     width: 70rem;
 }
 
-
-
 #responsive_proposal_container{
     flex-direction: row;
     justify-content: center;
@@ -87,7 +85,7 @@ input[type='submit']:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+  
 }
 
 #que_ofrecemos_imagen{
@@ -100,4 +98,13 @@ input[type='submit']:hover{
     
 }
 
+#contenedor_proyectos img{
+    width: 400px;
+    height: 600px;
+    transition: all 0.3s;
+}
+
+#contenedor_proyectos img:hover{
+    transform: scale(1.03);
+}
 

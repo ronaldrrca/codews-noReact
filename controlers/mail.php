@@ -5,7 +5,7 @@ $phone=""; if (isset($_GET['phone'])) {$phone = trim(htmlspecialchars($_GET['pho
 $textMessage =trim(htmlspecialchars($_GET['textMessage']));
 $message = "";
 $to = "ronaldrrca@gmail.com";
-$header = "From: ronathbg@ronaldweb.com" . "\r\n";//El email remitente debe ser una cuenta del  dominio.
+$header = "From: contacto@codews.co" . "\r\n";//El email remitente debe ser una cuenta del  dominio.
 $subject = "Contacto Codews";
 
 $message .= "Enviado por: " . $contactName . "\r\n";

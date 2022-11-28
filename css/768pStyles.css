@@ -61,6 +61,10 @@
     padding: 0.8rem;
 }
 
+#hero_contenedor{
+    margin-bottom: 10rem;
+}
+
 #hero_text{
     justify-content: flex-start;
 }
